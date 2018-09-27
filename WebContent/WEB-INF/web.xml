@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>UserIndexServlet.do</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+  	<servlet-name>ManagerLoginServlet</servlet-name>
+  	<servlet-class>com.servlet.backstage.ManagerLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserLoginServlet</servlet-name>
+  	<servlet-class>com.servlet.reception.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.servlet.backstage.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ManagerServlet</servlet-name>
+    <servlet-class>com.servlet.backstage.ManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodServlet</servlet-name>
+    <servlet-class>com.servlet.backstage.GoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndentServlet</servlet-name>
+    <servlet-class>com.servlet.backstage.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserIndexServlet</servlet-name>
+    <servlet-class>com.servlet.reception.UserIndexServlet</servlet-class>
+  </servlet>
+<!--   <servlet> -->
+<!--     <servlet-name>UserReigsterServlet</servlet-name> -->
+<!--     <servlet-class>com.servlet.UserReigsterServlet</servlet-class> -->
+<!--   </servlet> -->
+  <servlet>
+    <servlet-name>ShoppingcarServlet</servlet-name>
+    <servlet-class>com.servlet.backstage.ShoppingcarServlet</servlet-class>
+  </servlet>
+<!--   <servlet> -->
+<!--     <servlet-name>FileUploadServlet</servlet-name> -->
+<!--     <servlet-class>com.servlet.FileUploadServlet</servlet-class> -->
+<!--   </servlet> -->
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserGoodServlet</servlet-name>
+    <servlet-class>com.servlet.reception.UserGoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserUserServlet</servlet-name>
+    <servlet-class>com.servlet.reception.UserUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserIndentServlet</servlet-name>
+    <servlet-class>com.servlet.reception.UserIndexServlet</servlet-class>
+  </servlet>
+
+
+  
+  <servlet-mapping>
+  	<servlet-name>ManagerLoginServlet</servlet-name>
+  	<url-pattern>/ManagerLogin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserLoginServlet</servlet-name>
+  	<url-pattern>/UserLogin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/User.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerServlet</servlet-name>
+    <url-pattern>/Manager.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodServlet</servlet-name>
+    <url-pattern>/Good.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndentServlet</servlet-name>
+    <url-pattern>/Indent.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserIndexServlet</servlet-name>
+    <url-pattern>/UserIndexServlet.do</url-pattern>
+  </servlet-mapping>
+<!--   <servlet-mapping> -->
+<!--     <servlet-name>UserReigsterServlet</servlet-name> -->
+<!--     <url-pattern>/UserReigsterServlet.do</url-pattern> -->
+<!--   </servlet-mapping> -->
+  <servlet-mapping>
+    <servlet-name>ShoppingcarServlet</servlet-name>
+    <url-pattern>/ShoppingcarServlet.do</url-pattern>
+  </servlet-mapping>
+<!--   <servlet-mapping> -->
+<!--     <servlet-name>FileUploadServlet</servlet-name> -->
+<!--     <url-pattern>/Fupload.do</url-pattern> -->
+<!--   </servlet-mapping> -->
+  <servlet-mapping>
+    <servlet-name>UserGoodServlet</servlet-name>
+    <url-pattern>/UserGoodServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserUserServlet</servlet-name>
+    <url-pattern>/UserUserServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserIndentServlet</servlet-name>
+    <url-pattern>/UserIndentServlet.do</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

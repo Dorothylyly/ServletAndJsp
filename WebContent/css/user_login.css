@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+/*登录css*/
+
+img{
+	border:none;
+}
+.header{
+	height:105px;
+	width:100%;
+	border-bottom:1px solid #CCC;
+}
+.header_left{
+	margin:10px auto;
+	float:left;
+	font-size:30px;
+	font-weight:600;
+	font:"微软雅黑";
+	color:#999;
+}
+.header_right{
+	float:right;
+	margin:35px auto;
+	color:#999;
+	font-size:14px;
+}
+.header a{
+	color:#06F;
+}
+.main{
+	height:530px;
+	width:100%;
+	background:#F9F9F9;
+}
+.main_left{
+	height:420px; 
+	width:40%; 
+	float:left; 
+	margin-left:10%; 
+	border:1px solid #CCC;
+	background:#FFF;
+}
+.main_left_login{
+	width:70%; 
+	margin-left:15%;
+}
+.main_left_login a{
+	color:#999;
+}
+.main_left_username{
+	font-size:14px; 
+	margin-left:15%; 
+	font-weight:600; 
+	height:20px; 
+	width:70%;
+}
+.main_left_password{
+	font-size:14px; 
+	margin-left:15%; 
+	font-weight:600; 
+	height:20px; 
+	width:70%;
+}
+.main_left_forgetPassword{
+	width:50%; 
+	float:left; 
+	text-align:right; 
+	font-size:14px;
+	margin-top:3px;
+}
+.main_left_automaticLogon{
+	width:50%; 
+	float:left;
+	text-align:left;
+	font-size:14px; 
+	color:#999; 
+	height:30px;
+}
+.errmsg{
+	border:1px solid; 
+	width:70%; 
+	height:25px;
+	line-height:25px;
+	margin:10px 15%; 
+	text-align:center; 
+	font-size:12px; 
+	color:red;
+	display:none;
+	background:#FFFF99;
+}
+.main_right{
+	height:420px; 
+	width:40%; 
+	float:left;  
+	border:1px solid #CCC;
+	background:#FFF;
+}
+.footer{
+	height:50px;
+	width:100%;
+	text-align:center;
+	font-size:15px;
+	color:#666;
+}
+.footer a{
+	text-decoration:none;
+	color:#666;
+}	
+a{
+	text-decoration:none;
+}
+a:hover{
+	color:#C00;
+	text-decoration:underline;
+}

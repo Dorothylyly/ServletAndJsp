@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+img{border:none}
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+	height:105px;
+	width:100%;
+	border-bottom:1px solid #CCC;
+}
+.header_left{
+	margin:10px auto;
+	float:left;
+	font-size:30px;
+	font-weight:600;
+	font:"微软雅黑";
+	color:#999;
+}
+.header_right{
+	float:right;
+	margin:35px auto;
+	color:#999;
+	font-size:14px;
+}
+.forgetpwd{
+	height:40px;
+	font-family:'微软雅黑'; 
+	font-size:17px;
+	text-align:left;
+	color:#999;
+	font-weight:bold;
+	line-height:32px;
+}
+.middle{
+	height:460px;
+	border:3px solid #CCC;
+}
+.middle_line{
+	height:3px; 
+	width:100px;
+	/*background:#50e0bc;*/
+	background:#CCC;
+    margin-top:30px; 
+	float:left;
+}
+.middle_changePwd{
+	border-top:1px solid #CCC; 
+	height:310px; 
+	width:880px;
+}
+.middle_changePwd span{
+	width:380px; 
+	position:absolute; 
+	margin-left:8px; 
+	text-align:left;
+	margin-top:5px; 
+	color:#F00; 
+	font-size:13px;
+}
+.middle_promptMsg{
+	height:40px; 
+	margin-top:30px; 
+	text-align:center; 
+	font-size:20px;
+	font-weight:bold; 
+	color:#333;
+}
+#userName,#mail,#pwd,#repwd{
+	width:180px; 
+	height:25px; 
+	padding-left:5px; 
+	border-radius:5px;
+	border:#000 1px solid;
+}
+#code{
+	width:65px; 
+	height:25px; 
+	padding-left:5px; 
+	border-radius:5px;
+	border:#333 1px solid;
+}
+.code{
+	font-family:Arial,宋体;
+	font-style:italic;
+	color:green;
+	border:0;
+	padding:2px 3px;
+	letter-spacing:3px;
+	font-weight:bolder;
+	height:30px;
+	width:60px;
+	text-shadow:2px 3px 2px #000;
+}
+.a_color{
+	color:#3399FF;
+}
+#Submit{
+	width:120px; 
+	height:30px; 
+	background:#C00; 
+	border-radius:5px; 
+	border:#C00 solid 1px; 
+	color:#FFF; 
+	font-size:16px; 
+	font-family:'微软雅黑';
+}
+.middle_one,.middle_two,.middle_three{
+	border-radius:100%;
+	width:50px; 
+	height:50px; 
+	text-align:center; 
+	line-height:50px; 
+	float:left; 
+	border:1px solid  #CCC;
+	font-size:20px; 
+	font-weight:bold; 
+}
+.footer{
+	height:100px;
+	width:100%;
+	text-align:center;
+	font-size:15px;
+	color:#666;
+}
+.footer a{
+	text-decoration:none;
+	color:#666;
+}	
+a{
+	color:#06F;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+	color:#C00;
+}
